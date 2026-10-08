@@ -1,0 +1,824 @@
+SQL
+1–50
+Display all employees.
+Display only employee names.
+Display employee names and salaries.
+Display names, departments, and cities.
+Display all columns from employees.
+Display all project records.
+Display project names only.
+Display project names and budgets.
+Display employee ID and name.
+Display employee ID, name, and age.
+Display employees from the IT department.
+Display employees from HR.
+Display employees from Sales.
+Display employees from Finance.
+Display employees who live in Delhi.
+Display employees who live in Mumbai.
+Display employees who live in Pune.
+Display employees who live in Bangalore.
+Display employees whose salary is greater than 60000.
+Display employees whose salary is less than 60000.
+Display employees whose salary is exactly 75000.
+Display employees aged 30.
+Display employees older than 30.
+Display employees younger than 30.
+Display projects with budget greater than 200000.
+Display projects with budget less than 200000.
+Display active projects.
+Display completed projects.
+Display employees whose department is not IT.
+Display employees whose city is not Delhi.
+Display projects whose status is not Completed.
+Display employees with salary greater than or equal to 70000.
+Display employees with salary less than or equal to 50000.
+Display employees aged 25 or older.
+Display employees aged below 30.
+Display projects with budget greater than or equal to 250000.
+Display projects with budget below 150000.
+Display employees whose name is Rahul.
+Display the employee whose emp_id is 5.
+Display the project whose project_id is 105.
+Display employees from Delhi with salary above 70000.
+Display IT employees with salary above 70000.
+Display HR employees older than 30.
+Display Sales employees from Delhi.
+Display Finance employees with salary above 80000.
+Display active projects with budget above 200000.
+Display completed projects with budget below 200000.
+Display IT employees from Pune.
+Display employees from Mumbai earning more than 50000.
+Display employees older than 30 earning more than 80000.
+
+Level 2 — DISTINCT, Aliases & Basic Filtering
+51–100
+Display unique departments.
+Display unique cities.
+Display unique employee ages.
+Display unique project statuses.
+Display unique project employee IDs.
+Display employee names using an alias employee_name.
+Display salary using the alias monthly_salary.
+Display department using the alias dept.
+Display project budget using the alias project_budget.
+Display project name as project.
+Display employee name and salary with meaningful aliases.
+Display employee ID as employee_number.
+Display city as location.
+Display age as employee_age.
+Display all employees ordered by salary ascending.
+Display all employees ordered by salary descending.
+Display employees ordered by age ascending.
+Display employees ordered by age descending.
+Display employees ordered by name alphabetically.
+Display employees ordered by name in reverse alphabetical order.
+Display employees ordered by department alphabetically.
+Display employees ordered by city and then salary.
+Display employees ordered by department and salary descending.
+Display projects ordered by budget ascending.
+Display projects ordered by budget descending.
+Display active projects ordered by budget descending.
+Display employees with salary between 50000 and 80000.
+Display employees aged between 25 and 35.
+Display projects with budget between 150000 and 300000.
+Display employees whose salary is not between 50000 and 80000.
+Display employees whose age is between 24 and 30.
+Display employees from Delhi or Mumbai.
+Display employees from Pune or Jaipur.
+Display employees belonging to IT or HR.
+Display employees belonging to Sales or Finance.
+Display projects that are Active or Completed.
+Display employees whose department is not IT or HR.
+Display employees whose city is not Delhi or Pune.
+Display employees with salary between 60000 and 100000.
+Display employees aged 23, 25, or 30.
+Display employees whose department is IT, HR, or Finance.
+Display employees whose city is Delhi, Mumbai, or Pune.
+Display projects with IDs 101, 105, and 109.
+Display employees whose IDs are 1, 5, and 9.
+Display projects whose budgets are between 100000 and 200000.
+Display employees whose salaries are between 45000 and 75000.
+Display employees whose age is not between 25 and 35.
+Display projects whose budget is not between 200000 and 400000.
+Display employees from Delhi with salary between 60000 and 100000.
+Display IT employees whose salary is between 50000 and 80000.
+
+Level 3 — AND, OR, NOT, IN, BETWEEN
+101–150
+Find IT employees earning more than 70000.
+Find HR employees earning less than 60000.
+Find Sales employees older than 25.
+Find Finance employees younger than 35.
+Find Delhi employees earning more than 80000.
+Find Mumbai employees earning more than 40000.
+Find Pune employees earning less than 60000.
+Find employees older than 30 from Delhi.
+Find employees younger than 30 from Pune.
+Find employees aged 25–35 earning above 60000.
+Find IT employees aged below 30.
+Find HR employees aged above 30.
+Find Finance employees earning above 90000.
+Find Sales employees earning above 60000.
+Find employees from Delhi or Bangalore earning above 70000.
+Find employees from Mumbai or Pune earning below 60000.
+Find IT or Finance employees earning above 70000.
+Find HR or Sales employees earning below 60000.
+Find employees from Delhi who are either in IT or Finance.
+Find employees from Mumbai who are in HR.
+Find employees whose salary is 45000, 55000, or 60000.
+Find employees whose age is 23, 24, or 25.
+Find employees from cities Delhi, Pune, or Mumbai.
+Find employees from departments IT, HR, or Sales.
+Find projects with IDs 101, 103, 105, or 109.
+Find projects with budgets 100000, 200000, or 500000.
+Find active projects with budgets above 200000.
+Find completed projects with budgets above 200000.
+Find active projects with budgets below 200000.
+Find completed projects with budgets below 200000.
+Find employees not from Delhi.
+Find employees not belonging to IT.
+Find employees whose salary is not 60000.
+Find projects that are not Active.
+Find employees whose department is in IT, HR, or Finance.
+Find employees whose city is in Delhi, Mumbai, or Pune.
+Find employees whose salary is between 50000 and 90000.
+Find employees whose age is between 24 and 34.
+Find employees whose salary is outside 50000–90000.
+Find employees whose age is outside 25–35.
+Find IT employees from Delhi.
+Find IT employees not from Delhi.
+Find employees from Delhi earning between 60000 and 100000.
+Find employees from Mumbai earning between 40000 and 90000.
+Find Finance employees aged between 30 and 40.
+Find HR employees aged between 25 and 35.
+Find Sales employees earning between 40000 and 100000.
+Find projects with Active status and budget between 150000 and 400000.
+Find projects with Completed status and budget between 100000 and 500000.
+Find employees who satisfy either salary > 80000 or age > 35.
+
+Level 4 — LIKE, Wildcards & NULL
+151–200
+Find employees whose names start with A.
+Find employees whose names start with P.
+Find employees whose names end with a.
+Find employees whose names end with h.
+Find employees whose names contain a.
+Find employees whose names contain an.
+Find employees whose names contain ri.
+Find employees whose names have exactly 4 characters.
+Find employees whose names have exactly 5 characters.
+Find employees whose names have exactly 6 characters.
+Find employees whose names start with R and contain h.
+Find employees whose names contain a and end with n.
+Find cities starting with D.
+Find cities ending with i.
+Find cities containing a.
+Find departments starting with F.
+Find project names starting with A.
+Find project names ending with App.
+Find project names containing Data.
+Find project names containing Bank.
+Find employees whose names do not contain a.
+Find employees whose names do not start with A.
+Find employees whose names do not end with a.
+Find projects whose names contain App.
+Find projects whose names contain System.
+Find employees whose manager_id is NULL.
+Find employees who have a manager.
+Find employees who do not have a manager.
+Find projects with non-NULL employee IDs.
+Find employees with NULL manager IDs and salary above 80000.
+Find employees with NULL manager IDs from IT.
+Find employees who have a manager and earn above 60000.
+Find employees whose names start with N or P.
+Find employees whose names contain a and salary > 50000.
+Find employees whose names start with a vowel.
+Find project names containing the letter o.
+Find project names containing two consecutive letters p.
+Find employees whose name has i as the second character.
+Find employees whose name has a as the third character.
+Find employees whose city contains exactly 5 characters.
+Find employees whose city starts with M or P.
+Find employees whose city does not start with D.
+Find projects whose names start with C.
+Find projects whose names contain Migration.
+Find projects whose names end with App.
+Find employees whose name contains exactly two a characters.
+Find employees whose name starts with S and ends with a.
+Find employees whose department contains the letter a.
+Find employees whose city contains the letter i.
+Find employees whose manager ID is NULL and whose name contains a.
+
+Level 5 — Aggregate Functions
+201–250
+Find the total number of employees.
+Find the total number of projects.
+Find the average employee salary.
+Find the maximum salary.
+Find the minimum salary.
+Find the total salary paid to all employees.
+Find the average employee age.
+Find the youngest employee's age.
+Find the oldest employee's age.
+Find the highest project budget.
+Find the lowest project budget.
+Find the total project budget.
+Find the average project budget.
+Count employees from Delhi.
+Count employees from Mumbai.
+Count employees from Pune.
+Count employees from IT.
+Count employees from HR.
+Count employees from Sales.
+Count employees from Finance.
+Find the total salary of IT employees.
+Find the average salary of IT employees.
+Find the maximum IT salary.
+Find the minimum IT salary.
+Find the total salary of HR employees.
+Find the average HR salary.
+Find the maximum HR salary.
+Find the minimum HR salary.
+Find the average salary of employees from Delhi.
+Find the maximum salary among Delhi employees.
+Find the minimum salary among Mumbai employees.
+Find the total salary of employees from Pune.
+Find the average age of IT employees.
+Find the average age of Finance employees.
+Find the maximum age among Sales employees.
+Find the minimum age among HR employees.
+Count active projects.
+Count completed projects.
+Find the total budget of active projects.
+Find the total budget of completed projects.
+Find the average budget of active projects.
+Find the average budget of completed projects.
+Find the highest active project budget.
+Find the lowest active project budget.
+Find the highest completed project budget.
+Find the lowest completed project budget.
+Count projects having budget above 200000.
+Count employees earning above 70000.
+Find the total salary of employees older than 30.
+Find the average salary of employees younger than 30.
+
+Level 6 — GROUP BY
+251–300
+Count employees in each department.
+Find average salary in each department.
+Find maximum salary in each department.
+Find minimum salary in each department.
+Find total salary for each department.
+Count employees in each city.
+Find average salary for each city.
+Find maximum salary for each city.
+Find minimum salary for each city.
+Find total salary for each city.
+Find average age for each department.
+Find maximum age for each department.
+Find minimum age for each department.
+Count employees by age.
+Count employees by salary.
+Count projects by status.
+Find total project budget by status.
+Find average project budget by status.
+Find maximum project budget by status.
+Find minimum project budget by status.
+Count projects assigned to each employee.
+Find total project budget for each employee.
+Find average project budget for each employee.
+Find maximum project budget for each employee.
+Find minimum project budget for each employee.
+Count employees by department and city.
+Find average salary by department and city.
+Find total salary by department and city.
+Find maximum salary by department and city.
+Find minimum salary by department and city.
+Count employees by city and department.
+Find average age by city.
+Find total salaries for employees aged above 30 by department.
+Count employees earning above 60000 in each department.
+Count employees earning below 60000 in each department.
+Find average salary for employees older than 30 by department.
+Find maximum salary in each city where salary is above 50000.
+Find total salary for each city where employees are younger than 35.
+Count active projects by employee.
+Count completed projects by employee.
+Find total budget of active projects by employee.
+Find average budget of active projects by employee.
+Find total budget by project status.
+Find average budget by project status.
+Find project count by budget range.
+Count employees by salary range.
+Count employees by age range.
+Find average salary for each department ordered by average salary.
+Find total salary for each department ordered from highest to lowest.
+Find employee count for each department ordered from highest to lowest.
+
+Level 7 — HAVING
+301–350
+Find departments having more than 2 employees.
+Find departments having at least 2 employees.
+Find departments having average salary above 70000.
+Find departments having average salary below 70000.
+Find departments whose total salary exceeds 150000.
+Find departments whose maximum salary exceeds 90000.
+Find departments whose minimum salary is below 60000.
+Find cities having more than 2 employees.
+Find cities having average salary above 60000.
+Find cities having total salary above 150000.
+Find cities having maximum salary above 80000.
+Find cities having minimum salary below 60000.
+Find departments having employees older than 30.
+Find departments having more than one employee earning above 70000.
+Find departments having average age above 30.
+Find departments having average age below 30.
+Find departments having total salary between 100000 and 300000.
+Find departments having maximum salary between 70000 and 100000.
+Find departments having minimum salary below 50000.
+Find cities having more than one employee earning above 70000.
+Find cities having average age above 30.
+Find cities having total salary above 200000.
+Find cities having at least two employees.
+Find project statuses having more than 4 projects.
+Find project statuses having total budget above 1000000.
+Find project statuses having average budget above 200000.
+Find project statuses having maximum budget above 400000.
+Find employees who are assigned to more than one project.
+Find employees whose total project budget exceeds 300000.
+Find employees whose average project budget exceeds 200000.
+Find employees having more than one active project.
+Find employees having more than one completed project.
+Find departments with more than 2 employees and average salary above 60000.
+Find cities with more than 1 employee and average salary above 60000.
+Find departments with total salary above 200000 and average salary above 60000.
+Find departments with maximum salary above 80000 and minimum salary below 60000.
+Find cities with maximum salary above 90000.
+Find cities with total salary below 200000.
+Find departments with exactly 2 employees.
+Find departments with exactly 3 employees.
+Find departments with average age above 30 and total salary above 150000.
+Find departments with more than 2 employees earning above 50000.
+Find cities with more than 2 employees younger than 35.
+Find cities with total salary above 250000.
+Find employees with project count greater than 1.
+Find employees whose total project budget is greater than 400000.
+Find employees whose maximum project budget is greater than 300000.
+Find employees whose minimum project budget is less than 200000.
+Find project statuses having exactly 5 projects.
+Find project statuses where average budget exceeds 250000.
+
+Level 8 — String & Numeric Functions
+351–400
+Display employee names in uppercase.
+Display employee names in lowercase.
+Display department names in uppercase.
+Display city names in lowercase.
+Display project names in uppercase.
+Find the length of each employee name.
+Find the length of each project name.
+Display employee names and their name lengths.
+Find employees whose names have more than 5 characters.
+Find employees whose names have fewer than 5 characters.
+Find the first 3 characters of every employee name.
+Find the last 2 characters of every employee name.
+Extract the first 2 characters of every city.
+Concatenate employee name and department.
+Concatenate employee name and city.
+Display employee name and salary in one formatted expression.
+Replace a character in employee names.
+Find the position of a in employee names.
+Find the position of i in employee names.
+Trim spaces from a text value.
+Round employee salaries to the nearest thousand.
+Round project budgets to the nearest thousand.
+Find the absolute difference between salary and 70000.
+Calculate salary increased by 10%.
+Calculate salary increased by 20%.
+Calculate salary decreased by 10%.
+Calculate annual salary assuming salary is monthly.
+Calculate annual salary plus a 10% bonus.
+Find the remainder when salary is divided by 10000.
+Find the square of employee age.
+Find the cube of employee age.
+Find the difference between maximum and minimum salary.
+Find salary divided by age.
+Find project budget divided by 1000.
+Find employees whose salary is divisible by 5000.
+Find employees whose age is even.
+Find employees whose age is odd.
+Find projects whose budget is divisible by 10000.
+Find the difference between project budget and 200000.
+Find salary after adding 5000.
+Find salary after subtracting 5000.
+Display salary rounded to two decimal places.
+Display project budget rounded to two decimal places.
+Find the length of each department name.
+Find departments with more than 3 characters.
+Find cities with more than 5 characters.
+Display the first letter of each employee name.
+Display the first letter of each department.
+Display employee name combined with their employee ID.
+Display project name combined with its budget.
+
+Level 9 — Subqueries
+401–450
+Find employees earning more than the average salary.
+Find employees earning less than the average salary.
+Find the employee with the highest salary using a subquery.
+Find the employee with the lowest salary using a subquery.
+Find employees earning the maximum salary.
+Find employees earning the minimum salary.
+Find employees older than the average age.
+Find employees younger than the average age.
+Find employees whose salary is greater than the average IT salary.
+Find employees whose salary is greater than the average HR salary.
+Find employees whose salary is greater than the average Finance salary.
+Find employees whose salary is greater than the average Sales salary.
+Find employees from the same city as Rahul.
+Find employees earning more than Rahul.
+Find employees earning less than Rahul.
+Find employees older than Rahul.
+Find employees younger than Rahul.
+Find employees from the same department as Aman.
+Find employees from the same city as Pooja.
+Find employees earning more than the salary of Aman.
+Find employees earning less than the salary of Aman.
+Find employees whose salary equals the maximum salary.
+Find employees whose salary is above the average salary and age is below average age.
+Find employees whose salary is below the average salary but age is above average age.
+Find projects whose budget is above the average project budget.
+Find projects whose budget is below the average project budget.
+Find projects having the maximum budget.
+Find projects having the minimum budget.
+Find projects whose budget is greater than the AI System budget.
+Find projects whose budget is less than the Website budget.
+Find employees whose salary is greater than every HR employee salary.
+Find employees whose salary is greater than every Sales employee salary.
+Find employees whose salary is greater than every IT employee salary.
+Find employees whose salary is greater than at least one HR employee.
+Find employees whose salary is greater than at least one Sales employee.
+Find employees whose salary is greater than at least one Finance employee.
+Find employees whose department has more than 2 employees.
+Find employees belonging to the department with the highest average salary.
+Find employees belonging to the department with the lowest average salary.
+Find employees from the city with the highest average salary.
+Find employees from the city with the lowest average salary.
+Find projects belonging to the employee with the highest salary.
+Find projects belonging to the employee with the lowest salary.
+Find employees who have at least one project.
+Find employees who do not have any project.
+Find employees who have an active project.
+Find employees who have a completed project.
+Find employees who have more than one project.
+Find employees whose project budget is greater than the average project budget.
+Find employees whose project budget is greater than 300000.
+
+Level 10 — JOINs
+451–500
+Display employee names with their project names.
+Display employee names with their project budgets.
+Display employee names and project status.
+Display employee names, departments, and assigned projects.
+Display employee names and project names using INNER JOIN.
+Display employee names and project IDs.
+Display employee names with their project budgets ordered descending.
+Display IT employees and their projects.
+Display HR employees and their projects.
+Display Finance employees and their projects.
+Display Sales employees and their projects.
+Display employees from Delhi and their projects.
+Display employees from Mumbai and their projects.
+Display active projects with employee names.
+Display completed projects with employee names.
+Display projects with employee salary.
+Display projects with employee department.
+Display projects with employee city.
+Display projects whose employee earns more than 70000.
+Display projects whose employee belongs to IT.
+Display project names and employees ordered by employee salary.
+Display employee names and total project budget assigned to each employee.
+Display employee names and number of projects assigned to them.
+Display employee names and average project budget.
+Find employees who have at least one project.
+Find employees who do not have any project using LEFT JOIN.
+Display all employees and their projects, including employees without projects.
+Display all projects and their employees.
+Display all employees and project status where available.
+Find employees with active projects.
+Find employees with completed projects.
+Find employees with both active and completed projects.
+Find employees whose project budget exceeds their salary.
+Find employees whose project budget is less than their salary.
+Find employees whose project budget exceeds 200000.
+Find the employee with the highest-budget project.
+Find the employee with the lowest-budget project.
+Find the total project budget for each department.
+Find the average project budget for each department.
+Find the number of projects for each department.
+Find departments having more than 2 projects.
+Find departments whose total project budget exceeds 500000.
+Find employees whose total project budget exceeds 400000.
+Find employees having more than one project.
+Find employees having no project.
+Find the highest-paid employee working on a project.
+Find the highest-budget project and its employee.
+Display employee name, department, project name, budget, and status.
+Display all employees and all matching projects using LEFT JOIN, sorted by    employee name.
+Challenge: Display each department, number of employees, number of projects, total employee salary, and total project budget.
+Level 11 — CASE WHEN
+501–530
+Display each employee's name and classify salary as High, Medium, or Low.
+Classify employees as Senior if age >= 35, otherwise Junior.
+Classify salary as High if above 80000, Medium if 60000–80000, otherwise Low.
+Display employee name and classify department as Technical for IT and Non-Technical for others.
+Classify employees as Delhi Employee or Other City Employee.
+Classify employees as Manager if manager_id is NULL, otherwise Employee.
+Display employee name and classify age as Young, Middle, or Senior.
+Classify employees earning more than 90000 as Top Earner.
+Classify employees earning between 60000 and 90000 as Mid Earner.
+Classify employees earning below 60000 as Low Earner.
+Display employee name and salary category.
+Display employee name and age category.
+Display employee name and city category.
+Classify projects as Large if budget >= 300000, otherwise Small.
+Classify projects as High Budget, Medium Budget, or Low Budget.
+Classify projects as Current if Active and Finished if Completed.
+Display project name and project size based on budget.
+Classify employees as Eligible if salary >= 70000.
+Classify employees as Not Eligible if salary < 70000.
+Classify employees as Young IT, Senior IT, or Non-IT.
+Classify employees as High Salary IT, Low Salary IT, or Non-IT.
+Display employee name and whether they have a manager.
+Display employee name and classify salary relative to 70000.
+Display project name and classify budget relative to 200000.
+Display employees as Experienced if age >= 30.
+Display employees as Inexperienced if age < 30.
+Classify employees based on both department and salary.
+Classify projects based on both status and budget.
+Classify employees as Top Performer if salary > 80000 and age > 30.
+Create a salary category and count how many employees belong to each category.
+
+Level 12 — UNION / UNION ALL
+531–550
+Display all employee cities and project statuses in one column using UNION.
+Display all employee departments and project statuses using UNION.
+Display all employee names and project names in one result.
+Display all cities and departments using UNION.
+Display all cities and departments using UNION ALL.
+Compare the result of UNION and UNION ALL for departments and cities.
+Combine IT employee names with Finance employee names.
+Combine HR employee names with Sales employee names.
+Combine employees earning above 80000 with employees younger than 25.
+Combine employees from Delhi and Mumbai.
+Combine active project names with completed project names.
+Combine projects above 250000 budget with projects below 150000.
+Combine IT and HR employees using UNION.
+Combine IT and HR employees using UNION ALL.
+Return employee IDs from employees earning above 70000 and employees from Delhi.
+Return employee IDs from IT employees and Finance employees.
+Combine employee names from Delhi and project names.
+Combine city names and project names.
+Combine department names and project statuses.
+Create a single result containing employee names and project names without duplicates.
+
+Level 13 — CTE
+551–580
+Create a CTE containing employees earning above 70000.
+Create a CTE containing IT employees.
+Create a CTE containing employees from Delhi.
+Create a CTE containing employees older than 30.
+Create a CTE containing active projects.
+Create a CTE containing projects with budget above 200000.
+Use a CTE to find employees whose salary is above average.
+Use a CTE to find employees whose salary is below average.
+Use a CTE to calculate average salary by department.
+Use a CTE to find departments with average salary above 70000.
+Use a CTE to calculate total salary by department.
+Use a CTE to find the department with the highest total salary.
+Use a CTE to calculate employee count by department.
+Use a CTE to find departments having more than 2 employees.
+Use a CTE to calculate average project budget by status.
+Use a CTE to find project statuses with average budget above 200000.
+Use a CTE to calculate total project budget by employee.
+Use a CTE to find employees whose total project budget exceeds 300000.
+Use a CTE to calculate project count per employee.
+Use a CTE to find employees having more than one project.
+Use a CTE to calculate average salary by city.
+Use a CTE to find cities having average salary above 70000.
+Use a CTE to find the highest-paid employee.
+Use a CTE to find the employee with the lowest salary.
+Use a CTE to find employees earning more than their department's average salary.
+Use a CTE to find projects whose budget is above the average project budget.
+Create two CTEs: one for high-salary employees and one for active projects.
+Join two CTEs to find high-salary employees working on active projects.
+Create a CTE that calculates employee project counts and classify employees based on project count.
+Create a multi-step CTE that calculates department salary statistics and identifies the highest-paying department.
+
+Level 14 — Window Functions
+581–650
+ROW_NUMBER
+Assign a row number to every employee ordered by salary.
+Assign row numbers based on employee age.
+Assign row numbers based on employee name.
+Assign row numbers within each department.
+Assign row numbers within each city.
+Assign row numbers to projects based on budget.
+Assign row numbers to projects within each status.
+Find the highest-paid employee in each department using ROW_NUMBER().
+Find the second-highest-paid employee in each department.
+Find the lowest-paid employee in each department.
+Find the highest-budget project for each status.
+Find the second-highest-budget project overall.
+RANK
+Rank employees by salary.
+Rank employees by salary within each department.
+Rank employees by age.
+Rank employees by salary within each city.
+Rank projects by budget.
+Rank projects by budget within each status.
+Find employees with salary rank 1.
+Find employees with salary rank 2.
+Find the highest-paid employee in each department using RANK().
+Find employees tied for the highest salary in their department.
+DENSE_RANK
+Rank employees using DENSE_RANK() based on salary.
+Rank employees within each department using DENSE_RANK().
+Find the second-highest distinct salary.
+Find the second-highest distinct salary in each department.
+Find the third-highest distinct salary.
+Find the third-highest distinct salary in each department.
+Rank projects based on budget using DENSE_RANK().
+Find projects with the second-highest budget.
+PARTITION BY
+Calculate salary rank within each department.
+Calculate salary rank within each city.
+Calculate project budget rank within each status.
+Number employees separately within every department.
+Number employees separately within every city.
+Number projects separately within each status.
+Find the highest salary in every department using a window function.
+Find the lowest salary in every department using a window function.
+Find the highest salary in every city.
+Find the highest-budget project for each status.
+Aggregate Window Functions
+Display each employee and the average salary of their department.
+Display each employee and the total salary of their department.
+Display each employee and the number of employees in their department.
+Display each employee and the maximum salary in their department.
+Display each employee and the minimum salary in their department.
+Calculate each employee's salary as a percentage of their department's total salary.
+Calculate the difference between employee salary and department average salary.
+Calculate the difference between employee salary and department maximum salary.
+Calculate each project's budget as a percentage of total project budget.
+Display each project and total budget for its status.
+LAG / LEAD
+Display each employee's salary and the previous employee's salary.
+Display each employee's salary and the next employee's salary.
+Calculate the difference between an employee's salary and the previous salary.
+Calculate the difference between an employee's salary and the next salary.
+Compare each employee's salary with the previous employee in their department.
+Compare each employee's salary with the next employee in their department.
+Compare each project's budget with the previous project's budget.
+Compare each project's budget with the next project's budget.
+Find employees whose salary is greater than the previous employee's salary.
+Find employees whose salary is lower than the previous employee's salary.
+Running Totals
+Calculate a running total of employee salaries.
+Calculate a running total of salaries within each department.
+Calculate a running average of employee salaries.
+Calculate a running average within each department.
+Calculate a running total of project budgets.
+Calculate a running total of project budgets by status.
+Calculate cumulative salary within each department.
+Calculate cumulative project budget for each status.
+Find the employee where cumulative salary first exceeds 200000.
+Find the project where cumulative budget first exceeds 1000000.
+
+Level 15 — Date Functions
+651–680
+Your current tables do not contain dates, so for these questions add a date column such as:
+joining_date DATE
+to employee, or:
+start_date DATE
+to projects.
+Then solve:
+Display employees with their joining dates.
+Find employees who joined in 2025.
+Find employees who joined in 2026.
+Find employees who joined in January.
+Find employees who joined after a specific date.
+Find employees who joined before a specific date.
+Find employees who joined between two dates.
+Find the earliest joining date.
+Find the latest joining date.
+Find the number of days since each employee joined.
+Find employees who have worked for more than 1 year.
+Find employees who joined less than 6 months ago.
+Extract joining year.
+Extract joining month.
+Extract joining day.
+Count employees who joined each year.
+Count employees who joined each month.
+Find average employee tenure.
+Find the oldest employee based on joining date.
+Find the newest employee based on joining date.
+Find projects started in 2026.
+Find projects started in a particular month.
+Find projects started after a specific date.
+Find projects started before a specific date.
+Find projects active for more than 6 months.
+Find the earliest project start date.
+Find the latest project start date.
+Calculate project age in days.
+Group projects by start year.
+Group projects by start month.
+
+Level 16 — EXISTS / NOT EXISTS
+681–700
+Find employees who have at least one project.
+Find employees who have no projects.
+Find employees who have an active project.
+Find employees who have a completed project.
+Find employees who have a project with budget above 200000.
+Find employees who have a project with budget below 150000.
+Find employees who have more than one project using EXISTS.
+Find employees who have both an active and completed project.
+Find employees who have an active project but no completed project.
+Find employees who have a completed project but no active project.
+Find employees whose project budget is greater than their salary.
+Find employees whose project budget is less than their salary.
+Find employees who have a project named AI System.
+Find employees who are assigned to the Mobile App project.
+Find employees who have a project with budget above 400000.
+Find employees who have a project in the Active status.
+Find departments that have at least one employee with salary above 90000.
+Find departments that have at least one employee with a project.
+Find employees who do not have any project above 200000.
+Find employees who have at least one project but no completed project.
+
+Level 17 — Mixed Real-World Problems
+701–750
+Find the highest-paid employee in each department.
+Find the second-highest-paid employee in each department.
+Find the top 2 highest-paid employees in every department.
+Find employees earning more than their department's average salary.
+Find employees earning less than their department's average salary.
+Find the department with the highest average salary.
+Find the department with the highest total salary.
+Find the city with the highest average salary.
+Find the city with the highest total salary.
+Find the department with the most employees.
+Find the employee with the highest salary who has a project.
+Find the highest-budget project and its employee.
+Find the second-highest-budget project and its employee.
+Find employees who have multiple projects.
+Find employees who have no projects.
+Find employees whose total project budget exceeds 400000.
+Find employees whose total project budget is greater than their salary.
+Find departments whose total project budget exceeds 500000.
+Find the department with the highest total project budget.
+Find the department with the most projects.
+Find the employee with the most projects.
+Find the employee with the highest average project budget.
+Find the employee with the lowest average project budget.
+Find the employee with the highest individual project budget.
+Find all employees who manage other employees.
+Find how many employees report to each manager.
+Find the manager with the most employees reporting to them.
+Find employees who earn more than their manager.
+Find employees who earn less than their manager.
+Find employees whose salary is equal to their manager's salary.
+Find employees whose department has at least 2 employees.
+Find departments where every employee earns more than 50000.
+Find departments where at least one employee earns more than 90000.
+Find departments where no employee earns below 50000.
+Find cities where average salary is above the overall average salary.
+Find employees whose salary is above their city's average salary.
+Find employees whose salary is above both their department and city average.
+Find the top-paid employee in each city.
+Find the second-highest-paid employee in each city.
+Find the top 2 projects by budget for each status.
+Find the highest-budget active project.
+Find the highest-budget completed project.
+Find the difference between the highest and lowest project budgets.
+Find the difference between the highest and lowest salary in each department.
+Calculate each employee's percentage contribution to their department's total salary.
+Calculate each employee's percentage contribution to their department's total project budget.
+Create a salary classification and find the number of employees in each classification.
+Create a project classification based on budget and find the number of projects in each category.
+Build an employee performance report: employee name, department, salary, salary rank within department, number of projects, total project budget, and salary category.
+Final challenge: Create a department-level report containing:
+department name
+employee count
+average salary
+highest salary
+total salary
+project count
+total project budget
+average project budget
+highest-paid employee
+highest-budget project
+
+
